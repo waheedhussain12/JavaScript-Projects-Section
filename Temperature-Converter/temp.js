@@ -7,6 +7,7 @@ cel.addEventListener("input",function(){
         f = f.toFixed(4)
     }
     fah.value = f;
+    // console.log(f);
 });
 fah.addEventListener("input",function(){
    let f = this.value;
