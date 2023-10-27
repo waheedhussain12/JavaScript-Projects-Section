@@ -3,22 +3,15 @@ let fah = document.getElementById("fah");
 cel.addEventListener("input",function(){
     let c   = cel.value;
     let f = (c * 9/5) + 32;
-    if(!Number.isInteger(f)){
+    if(!Number.isInteger(f) ){
         f = f.toFixed(4)
+        
+      
     }
-
-        let newAdd = document.createElement("h2");
-        newAdd.innerText = "this is Fahrenheit value";
-        document.body.appendChild(newAdd); 
-        fah.value = f;
- 
-
-
-
     // let newAdd = document.createElement("h2");
     // newAdd.innerText = "this is value";
     // document.body.appendChild(newAdd);
-    // fah.value = f;
+    fah.value = f;
     console.log(f);
 });
 
