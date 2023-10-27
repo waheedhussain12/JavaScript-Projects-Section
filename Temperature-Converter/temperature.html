@@ -31,6 +31,15 @@
         font-size: 23px;
         color: black;
       }
+      .outputResult{
+       color: darkblue;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+  text-align: center;
+    
+
+      }
     </style>
   </head>
   <body>
@@ -45,7 +54,17 @@
         <label>Fahrenheit</label> <br />
         <input type="number" value="32" id="fah" class="inp" />
       </div>
+      <p id="result1" class="outputResult"></p>
     </div>
+
+
+
+<h1> Temperature Converter</h1>
+<p>Enter Degrees in Celsius</p>
+<input type="number" id="input">
+<p id="result">Result: </p>
+<button onclick="converter()">Done</button>
+
    <script src="./temp.js"></script>
   </body>
 </html>
