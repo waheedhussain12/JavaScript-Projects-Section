@@ -11,9 +11,7 @@ cel.addEventListener("input",function(){
         let newAdd = document.createElement("h2");
         newAdd.innerText = "this is value";
         document.body.appendChild(newAdd);
-        if (f == 0) {
-            newAdd.removeChild()
-        }
+       
     }
     // let newAdd = document.createElement("h2");
     // newAdd.innerText = "this is value";
