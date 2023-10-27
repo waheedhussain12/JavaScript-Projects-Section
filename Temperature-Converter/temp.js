@@ -6,6 +6,7 @@ cel.addEventListener("input",function(){
     if(!Number.isInteger(f)){
         f = f.toFixed(4)
     }
+    let a = "this is good";
     fah.value = f;
     // console.log(f);
 });
