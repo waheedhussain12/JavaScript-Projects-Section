@@ -7,9 +7,9 @@ cel.addEventListener("input",function(){
         f = f.toFixed(4)
     }
 
-    if ( fah.value = f) {
+    if (fah.value = f) {
         let newAdd = document.createElement("h2");
-        newAdd.innerText = "this is value";
+        newAdd.innerText = "this is Fahrenheit value";
         document.body.appendChild(newAdd);
        
     }
