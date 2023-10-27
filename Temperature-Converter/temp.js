@@ -9,13 +9,7 @@ cel.addEventListener("input",function(){
     let newAdd = document.createElement("h2");
     newAdd.innerText = "this is value";
     document.body.appendChild(newAdd);
-   if ( fah.value = f) {
-    newAdd
-    
-    
-   }
-   }
-    // fah.value = f;
+    fah.value = f;
     console.log(f);
 });
 fah.addEventListener("input",function(){
