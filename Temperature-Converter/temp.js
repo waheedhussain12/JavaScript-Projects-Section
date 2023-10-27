@@ -6,12 +6,29 @@ cel.addEventListener("input",function(){
     if(!Number.isInteger(f)){
         f = f.toFixed(4)
     }
-    let newAdd = document.createElement("h2");
-    newAdd.innerText = "this is value";
-    document.body.appendChild(newAdd);
-    fah.value = f;
+
+    if ( fah.value = f) {
+        let newAdd = document.createElement("h2");
+        newAdd.innerText = "this is value";
+        document.body.appendChild(newAdd);
+        if (f == 0) {
+            newAdd.removeChild()
+        }
+    }
+    // let newAdd = document.createElement("h2");
+    // newAdd.innerText = "this is value";
+    // document.body.appendChild(newAdd);
+    // fah.value = f;
     console.log(f);
 });
+
+
+
+
+
+
+
+
 fah.addEventListener("input",function(){
    let f = fah.value;
  let c = (f - 32) * 5/9; 
