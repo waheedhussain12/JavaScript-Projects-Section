@@ -25,6 +25,6 @@ document.getElementById("word").innerHTML = cleanList.length;
 console.log();
 
 
-
+   
 
 });
