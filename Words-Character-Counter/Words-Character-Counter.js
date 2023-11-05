@@ -24,6 +24,7 @@ document.getElementById("word").innerHTML = cleanList.length;
 console.log();
 console.log();
 console.log();
+console.log();
 
 
    
