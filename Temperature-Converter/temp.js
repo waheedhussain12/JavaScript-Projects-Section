@@ -1,6 +1,6 @@
 let cel = document.getElementById("cel");
 let fah = document.getElementById("fah");
-let kel = document.getElementById("kel");
+
 
 cel.addEventListener("input", function () {
   let c = this.value;
