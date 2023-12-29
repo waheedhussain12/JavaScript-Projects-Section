@@ -1,4 +1,5 @@
 let cel = document.getElementById("cel");
+//for access th html tag
 let fah = document.getElementById("fah");
 
 
