@@ -4,8 +4,10 @@ let fah = document.getElementById("fah");
 
 
 cel.addEventListener("input", function () {
+  //perform any event in html tag
   let c = this.value;
-  let f = (c * 9) / 5 + 32;
+  // means get functions value and store it c variable
+  let f = (c * 9) / 5 + 32; // formula
   if (!Number.isInteger(f)) {
     f = f.toFixed(2);
   }
