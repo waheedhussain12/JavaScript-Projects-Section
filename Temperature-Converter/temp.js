@@ -1,11 +1,12 @@
 let cel = document.getElementById("cel");
 let fah = document.getElementById("fah");
+let kel = document.getElementById("kel");
 
 cel.addEventListener("input", function () {
   let c = this.value;
   let f = (c * 9) / 5 + 32;
   if (!Number.isInteger(f)) {
-    f = f.toFixed(4);
+    f = f.toFixed(2);
   }
   // let newAdd = document.createElement("h2");
   // newAdd.innerText = "this is value";
@@ -21,12 +22,33 @@ fah.addEventListener("input", function () {
   let f = fah.value;
   let c = ((f - 32) * 5) / 9;
   if (!Number.isInteger(c)) {
-    c = c.toFixed(4);
+    c = c.toFixed(2);
   }
   let result1 = document.getElementById("result1");
   result1.innerHTML = `Fahrenheit To Celsius ${(cel.value = c)} `;
   cel.value = c;
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
