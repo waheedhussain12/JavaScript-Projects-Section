@@ -5,7 +5,7 @@ let userInputText = textbox.value;
 let char = userInputText.length;
 let characterCount = document.getElementById("char");
 characterCount.innerHTML = char;
-// document.getElementById("char").innerHTML = char;
+document.getElementById("char").innerHTML = char;
 
 
 
@@ -17,9 +17,9 @@ let cleanList = words.filter(function(e){
     return e != "";
 });
 console.log(cleanList);
-// let wordsLength = words.length;
-// let wordCounter = document.getElementById("word");
-// wordCounter.innerHTML = wordsLength;
+let wordsLength = words.length;
+let wordCounter = document.getElementById("word");
+wordCounter.innerHTML = wordsLength;
 document.getElementById("word").innerHTML = cleanList.length;
 
 });
