@@ -21,51 +21,5 @@ console.log(cleanList);
 // let wordCounter = document.getElementById("word");
 // wordCounter.innerHTML = wordsLength;
 document.getElementById("word").innerHTML = cleanList.length;
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();console.log();console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-                
-     
-
-            
-                        
-             
-      
-  
-
-       
-
-     
-               
-
-       
-     
 
 });
