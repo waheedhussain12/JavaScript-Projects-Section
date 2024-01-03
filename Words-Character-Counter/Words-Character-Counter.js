@@ -23,15 +23,3 @@ wordCounter.innerHTML = wordsLength;
 document.getElementById("word").innerHTML = cleanList.length;
 
 });
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-console.log("waheed");
-conso
