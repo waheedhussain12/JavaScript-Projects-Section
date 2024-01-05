@@ -14,17 +14,21 @@ let characterCount = document.getElementById("char").innerHTML = char;
 
 
 // words
+// for delete start and end space
 userInputText =  userInputText.trim();
+// split use for seprate any word its convert in array
 let words = userInputText.split(" ");
+// use filter for clean list means do not count any space
 let cleanList = words.filter(function(e){
-
     return e != "";
 });
-console.log(cleanList);
-let wordsLength = words.length;
-let wordCounter = document.getElementById("word");
-wordCounter.innerHTML = wordsLength;
 document.getElementById("word").innerHTML = cleanList.length;
+// extra 
+// console.log(cleanList);
+// let wordsLength = words.length;
+// let wordCounter = document.getElementById("word");
+// wordCounter.innerHTML = wordsLength;
+
 
 });
 
