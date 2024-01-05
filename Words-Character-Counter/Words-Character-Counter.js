@@ -1,9 +1,14 @@
+// html element access
 let textbox = document.getElementById("textbox");
+// event for perform any task from keyboard or mouse
 textbox.addEventListener("input",function(){
+    // means get event values
 let userInputText = this.value;
+// get length
 let char = userInputText.length;
-let characterCount = document.getElementById("char");
-characterCount.innerHTML = char;
+
+let characterCount = document.getElementById("char").innerHTML = char;
+// characterCount.innerHTML = char;
 
 
 
@@ -23,28 +28,3 @@ document.getElementById("word").innerHTML = cleanList.length;
 
 });
 
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
-console.log('hy');
