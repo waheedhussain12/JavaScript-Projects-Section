@@ -1,11 +1,10 @@
 let textbox = document.getElementById("textbox");
 textbox.addEventListener("input",function(){
-let userInputText = textbox.value;
-// console.log(getText.length);
+let userInputText = this.value;
 let char = userInputText.length;
 let characterCount = document.getElementById("char");
 characterCount.innerHTML = char;
-document.getElementById("char").innerHTML = char;
+
 
 
 
@@ -23,3 +22,5 @@ wordCounter.innerHTML = wordsLength;
 document.getElementById("word").innerHTML = cleanList.length;
 
 });
+
+console.log('hy');
