@@ -7,6 +7,9 @@ if(username.value == ""){
     document.getElementById("userError").innerHTML = "User Name is empty";
      
 
+}else if(username.value.length < 3){
+    
+
 }
 return false
 }
