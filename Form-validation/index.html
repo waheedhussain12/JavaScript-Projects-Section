@@ -33,6 +33,11 @@
             color: white;
         }
 
+        .error{
+            color: red;
+            margin: 0px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -40,9 +45,9 @@
         <h2>Login</h2>
         <form action="" onsubmit="return validateForm()">
             <input type="text" placeholder="User Name" id="username"><br>
-            <p id="userError" class="error">Error</p>
+            <p id="userError" class="error"></p>
            <input type="password" placeholder="password" id="password"><br>
-           <p id="passError" class="error">Error</p>
+           <p id="passError" class="error"></p>
            <input type="submit">
 
         </form>
