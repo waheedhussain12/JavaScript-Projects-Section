@@ -4,10 +4,11 @@ let sec = 0;
 let count = 0;
 let timer = false;
 function  start(){
-
+timer = true;
+stopWatch();
 }
 function  stop(){
-    
+    timer = false;
 }
 
 function  reset(){
@@ -17,5 +18,5 @@ function  reset(){
 
 function  stopWatch(){
     
-    
+
 }
