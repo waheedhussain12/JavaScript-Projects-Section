@@ -12,11 +12,13 @@ function  stop(){
 }
 
 function  reset(){
-    
+    timer = false;
 }
 
 
 function  stopWatch(){
-    
+   if(timer == timer){
+    setTimeout("stopWatch()",10);
+   } 
 
 }
