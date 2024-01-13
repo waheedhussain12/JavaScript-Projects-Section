@@ -13,3 +13,8 @@ function  stop(){
 function  reset(){
     
 }
+
+
+function  stopWatch(){
+    
+}
