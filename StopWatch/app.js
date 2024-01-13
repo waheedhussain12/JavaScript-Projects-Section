@@ -1,6 +1,6 @@
 function  start(){
 
 }
-function  start(){
+function  stop(){
     
 }
