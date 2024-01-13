@@ -5,6 +5,6 @@ function  stop(){
     
 }
 
-function  start(){
+function  reset(){
     
 }
