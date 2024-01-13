@@ -1,3 +1,5 @@
+let hr = 0;
+
 function  start(){
 
 }
