@@ -1,3 +1,6 @@
 function  start(){
+
+}
+function  start(){
     
 }
